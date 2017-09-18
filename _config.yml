@@ -1,15 +1,14 @@
 
 # SEO settings
-title: Simplest
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/simplest"
-# baseurl: null
+title: Bernease Herman
+description: "Bernease Herman's personal website"
+keywords: "data science, interpretable models, XAI, FATML, AI, ML, artificial intelligence, machine learning"
+url: http://www.berneaseherman.com
+baseurl: null
 
-google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/simplest
-disqus_shortname: "nandothemes"
+google_analytics:
+repo: http://github.com/bernease/bernease.github.io
+disqus_shortname: ""
 
 # Build settings
 permalink   : /:year/:title/
@@ -30,20 +29,20 @@ sass:
 
 # Author settings
 author:
-  name     : Fernando Moreira
-  job      : Frontend Engineer
-  thumb    : /images/author.jpg
-  email    : nandomoreira.me@gmail.com
-  url      : http://nandomoreira.me
-  github   : http://github.com/nandomoreirame
-  twitter  : http://twitter.com/nandomoreirame
-  facebook : http://facebook.com/fernando.dev
-  linkedin : http://linkedin.com/in/nandomoreirame
+  name     : Bernease Herman
+  job      : Data Scientist
+  thumb    : assets/images/headshot.png
+  email    :
+  url      : http://www.berneaseherman.com
+  github   : http://github.com/bernease
+  twitter  : http://twitter.com/bernease
+  facebook : http://facebook.com/bernease
+  linkedin : http://linkedin.com/in/bernease
 
 # social settings
-og_locale: "pt_BR"
+og_locale: "pt_US"
 twitter_card: "summary_large_image"
-twitter_site: "@nandomoreirame"
+twitter_site: "@bernease"
 
 gems:
   - jekyll-paginate
