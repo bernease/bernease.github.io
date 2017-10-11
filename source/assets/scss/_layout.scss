@@ -11,6 +11,13 @@ body {
   width: 100%;
   height: 100%;
 }
+.box-highlight {
+  background-color: $action-color;
+  color: $white-color;
+  display: inline-block;
+  padding: 0 .3em;
+  line-height: 1.6;
+}
 
 .clearfix {
   &:before {
@@ -29,7 +36,7 @@ body {
 
 body {
   background-color: $base-background-color;
-  font-weight: 400;
+  font-weight: 350;
 }
 
 hr {
@@ -76,14 +83,12 @@ hr {
   min-height: 80px;
 }
 
-.intro {
-  .author-name {
-    background-color: $action-color;
-    color: $white-color;
-    display: inline-block;
-    padding: 0 .3em;
-  }
+.footnote {
+  font-size: 0.85em;
+  color: $light-primary-color;
+}
 
+.intro {
   a {
     @extend .link;
   }
