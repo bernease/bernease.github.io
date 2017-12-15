@@ -1,0 +1,46 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import "main";
+
+.navimage img {
+	padding: 1px;
+	background: $primary-color;
+	border: 3px solid white;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	box-shadow: 0px 0px 4px $primary-color;
+  cursor: pointer;
+}
+
+table.navtable {
+  table-layout: auto;
+}
+
+.navtable table, .navtable th, .navtable td {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+td.navimage {
+  width: 180px;
+  border-right: 1px solid $base-border-color;
+}
+
+@media only screen and (max-width: 560px) {
+  .hide-nonmobile {
+    display: none;
+  }
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.base-font-color {
+  color: $base-font-color;
+}
