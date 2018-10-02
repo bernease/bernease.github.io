@@ -6,6 +6,8 @@
 bundle exec jekyll build
 git branch -D master
 git checkout -b master
+git mv CNAME _site/
+git commit -m "Move CNAME to _site for master"
 git filter-branch --subdirectory-filter _site/ -f
 git checkout source
 git push --all origin
